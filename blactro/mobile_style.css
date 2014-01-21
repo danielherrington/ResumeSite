@@ -24,7 +24,11 @@ ul, li {
 
 h1, h2, h3, h4, h5, h6 { color: #fff; font-weight: normal; }
 h1 { font-size: 58px; margin: 0 0 15px; padding: 5px 0 }
-h2 { font-size: 28px; margin: 0 0 15px; padding: 5px 0 }
+h2 {
+	font-size: 18px;
+	margin: 0 0 15px;
+	padding: 5px 0
+}
 h3 { font-size: 20px; margin: 0 0 20px; padding: 0; }
 h4 { font-size: 16px; margin: 0 0 15px; padding: 0; }
 h5 { font-size: 14px; margin: 0 0 10px; padding: 0;  }
@@ -67,7 +71,7 @@ img { margin: 0; padding: 0; border: none }
 
 
 #templatemo_header {
-	width: 800px;
+	width: 540px;
 	margin: 0 auto;
 	padding: 10px 0;
 	position: relative;
@@ -80,21 +84,21 @@ img { margin: 0; padding: 0; border: none }
 }
 
 #templatemo_main {
-	width: 800px;
-	height: 487px;
+	width: 540px;
+	height: 800px;
 	overflow: hidden;
 	margin: 0 auto;
 }
 
 #templatemo_footer {
-	width: 800px;
+	width: 540px;
 	margin: 0 auto;
 	padding: 20px 0;
 	text-align: right
 }
 
-#site_title { display: block; margin: 15px 0px; }
-#site_title span { color: #fff; font-weight: 500; font-size: 60px; letter-spacing: 10px; line-height: 30px }
+#site_title { display: block; margin: 12px 0px; }
+#site_title span { color: #fff; font-weight: 500; font-size: 25px; letter-spacing: 10px; line-height: 30px }
 
 #content{
 	overflow:hidden;
@@ -106,8 +110,8 @@ img { margin: 0; padding: 0; border: none }
 .section {
 	position:relative;
 	float:left;
-	width: 800px;
-	height: 500px;
+	width: 540px;
+	height: 800px;
 	margin-right: 20px;
 }
 
@@ -121,8 +125,8 @@ img { margin: 0; padding: 0; border: none }
 .section2 {
 	position: relative;
 	float: left;
-	width: 800px;
-	height: 500px;
+	width: 540px;
+	height: 800px;
 	margin-right: 20px;
 	margin-top: 30px;
 }
@@ -139,7 +143,7 @@ img { margin: 0; padding: 0; border: none }
 .box a { color: #FFFFFF; }
 
 .home_box1 { width: 260px; height: 150px }
-.home_box2 { width: 530px; height: 150px }
+.home_box2 { width: 540px; height: 150px }
 .home_box3 { width: 150px; height: 150px }
 
 .color1 { background: #7a0f27 }
