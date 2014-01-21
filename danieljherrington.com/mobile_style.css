@@ -55,7 +55,7 @@ cite span { font-weight: 400; color: #ccc; }
 .no_bullet li { margin: 0 0 20px 0; padding: 0 }
 a.header { display: block; font-weight: 700 }
 
-.half { width: 370px }
+.half { width: 270px }
 
 .h20 { height: 20px }
 .h40 { height: 40px }
@@ -71,7 +71,7 @@ img { margin: 0; padding: 0; border: none }
 
 
 #templatemo_header {
-	width: 100%;
+	width: 540px;
 	margin: 0 auto;
 	padding: 10px 0;
 	position: relative;
@@ -84,14 +84,14 @@ img { margin: 0; padding: 0; border: none }
 }
 
 #templatemo_main {
-	width: 100%;
+	width: 540px;
 	height: 800px;
 	overflow: hidden;
 	margin: 0 auto;
 }
 
 #templatemo_footer {
-	width: 100%;
+	width: 540px;
 	margin: 0 auto;
 	padding: 20px 0;
 	text-align: right
@@ -104,7 +104,7 @@ img { margin: 0; padding: 0; border: none }
 	overflow:hidden;
 	width: 7000px;
 	position:relative;
-	height: 1500px;
+	height: 2500px;
 }
 
 .section {
@@ -230,37 +230,3 @@ img { margin: 0; padding: 0; border: none }
 }
 
 .no_mr { margin-right: 0 }
-
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
-  /* Styles */
-}
-
-/* Smartphones (landscape) ----------- */
-@media only screen 
-and (min-width : 321px) {
-  /* Styles */
-}
-
-/* Smartphones (portrait) ----------- */
-@media only screen 
-and (max-width : 320px) {
-  /* Styles */
-}
-
-/* iPads (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
-  /* Styles */
-}
-
-/* iPads (landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape) {
-  /* Styles */
-}
