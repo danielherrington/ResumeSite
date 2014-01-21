@@ -100,14 +100,14 @@ img { margin: 0; padding: 0; border: none }
 	overflow:hidden;
 	width: 7000px;
 	position:relative;
-	height: 487px;
+	height: 1500px;
 }
 
 .section {
 	position:relative;
 	float:left;
 	width: 800px;
-	height: 487px;
+	height: 500px;
 	margin-right: 20px;
 }
 
@@ -118,12 +118,29 @@ img { margin: 0; padding: 0; border: none }
 
 .section h2 { margin-bottom: 40px }
 
+.section2 {
+	position: relative;
+	float: left;
+	width: 800px;
+	height: 500px;
+	margin-right: 20px;
+	margin-top: 30px;
+}
+
+.section2 a.slider_nav_btn { position: absolute; top: 0; width: 40px; height: 40px; display: block; background-image: url(images/slider_nav_btn_2.png);  text-indent: -10000px }
+.section2 a.home_btn { right: 40px; background-position: 80px 0 }
+.section2 a.up_btn { right: 80px; background-position: 0 0 }
+.section2 a.down_btn { right: 0px; background-position: 40px 0 }
+
+.section2 h2 { margin-bottom: 40px }
+
 .box { float: left; margin: 0 10px 10px 0 }
 
 .box a { color: #FFFFFF; }
 
 .home_box1 { width: 260px; height: 150px }
 .home_box2 { width: 530px; height: 150px }
+.home_box3 { width: 150px; height: 150px }
 
 .color1 { background: #7a0f27 }
 .color2 { background: #252525 }
