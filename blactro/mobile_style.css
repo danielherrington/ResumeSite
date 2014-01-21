@@ -8,7 +8,7 @@ body {
 	line-height: 1.5em; 
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	background-color: #000;
-	background-image: url(images/templatemo_body.jpg);
+	background-image: url(images/mobile_body.jpg);
 	background-position: center top;
 	background-repeat: no-repeat
 }
@@ -143,7 +143,9 @@ img { margin: 0; padding: 0; border: none }
 .box a { color: #FFFFFF; }
 
 .home_box1 { width: 260px; height: 150px }
-.home_box2 { width: 540px; height: 150px }
+.home_box2 { width: 530px; height: 150px }
+.home_box1_r { width: 260px; height: 150px ; float: right; margin: 0 10px 10px 0}
+.home_box1_l { width: 260px; height: 150px ; float: left}
 .home_box3 { width: 150px; height: 150px }
 
 .color1 { background: #7a0f27 }
